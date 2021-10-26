@@ -1,0 +1,102 @@
+.target{
+    width: 1000px;
+    height: 1000px;
+    background-color: silver;
+}
+.a{
+    width: 1000px;
+    height: 300px;
+    background-color: gold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    color: white;
+}
+
+.Burger{
+    width: 1000px;
+    height: 700px;
+    display: flex;
+
+
+}
+.Potato{
+    width: 600px;
+    height: 700px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.b{
+    width: 200px;
+    height: 350px;
+    background-color: yellow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    color: white;
+}
+.c{
+    width: 200px;
+    height: 350px;
+    background-color: yellowgreen;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    color: white;
+}
+.d{
+    width: 200px;
+    height: 350px;
+    background-color: yellow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    color: white;
+}
+.e{
+    width: 200px;
+    height: 350px;
+    background-color: yellowgreen;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    color: white;
+}
+.f{
+    width: 200px;
+    height: 350px;
+    background-color: yellow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    color: white;
+}
+.g{
+    width: 200px;
+    height: 350px;
+    background-color: yellowgreen;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    color: white;
+}
+
+.h{
+    width: 400px;
+    height: 700px;
+    background-color: palevioletred;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    color: white;
+}

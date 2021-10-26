@@ -1,0 +1,32 @@
+.father{
+    background: blue;
+    width: 1000px;
+    height: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box__a{
+   background: silver;
+    width: 1000px;
+    height: 500px;
+
+}
+
+.box__b{
+    background: aqua;
+    width: 600px;
+    height: 700px;
+}
+
+.box__с{
+    background: red;
+    width: 400px;
+    height: 700px;
+    display: flex;
+}
+.box__d{
+    width: 1000px;
+    height: 700px;
+    display: flex;
+}

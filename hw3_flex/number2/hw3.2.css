@@ -1,0 +1,44 @@
+.Father{
+    width: 1000px;
+    height: 1000px;
+    background-color: silver;
+
+}
+
+.a{
+    width: 1000px;
+    height: 250px;
+    background-color: blueviolet;
+}
+
+.x{
+    width: 1000px;
+    height: 750px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box_in_b{
+    width: 250px;
+    height: 500px;
+    background-color: chartreuse;
+}
+
+.box_in_d{
+    width: 750px;
+    height: 250px;
+    background-color: darkred;
+}
+
+.box_in_m{
+    width: 750px;
+    height: 250px;
+    background-color: darkorange;
+}
+.box_in_r{
+    width: 1000px;
+    height: 250px;
+    background-color: cornflowerblue;
+}
+
+
