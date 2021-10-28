@@ -1,0 +1,311 @@
+@media screen and (max-width: 360px) and (max-height: 640px){
+    .header {
+        width: 360px;}
+
+    .menu  {
+        width: 360px;
+    }
+    .menu__min__box__right, .menu__min__box__left{
+        width: 50%;
+    }
+
+    .header__min__box__left {
+        width: 360px;
+    }
+    .menu__min__box__right1{
+        margin: 5px;
+    }
+
+    .menu__min__box__left1{
+        width: 100px;
+        height: 75px;
+        margin: 0 0 0 30px;
+    }
+
+    .nav{
+        width: 360px;
+    }
+
+    .nav__box__1{
+        width: 360px;
+    }
+    .fanka-box-1-2{
+        width: 360px;
+    }
+    .nav__box__2{
+        width: 360px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .nav__box__2-1{
+        width: 75px;
+        height: 13px;
+        border-radius: 50px;
+        margin: 22px;
+
+    }
+
+    .nav__box__3{
+        width: 360px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .nav__box__4{
+        width: 360px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .nav__box__5{
+        width: 360px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .nav__box__6{
+        width: 360px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .nav__box__7{
+        width: 360px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    .image-all{
+        width: 360px;
+        height: 2000px;
+        display: flex;
+        align-items: center;
+
+    }
+
+    .image-all-menu{
+        width: 350px;
+        height: 1900px;
+        margin: 0;
+        margin-left: 5px;
+
+    }
+    .image_header{
+        width: 170px;
+        height: 100px;
+        margin-left: 80px;
+    }
+    .image_header_box-1{
+        width: 50px;
+        height: 10px;
+        border-radius: 50px;
+        margin-left: 39px;
+    }
+
+    .image-all-box{
+        width: 232px;
+        height: 1100px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .image-all-box-1{
+        width: 220px;
+        height: 220px;
+        border-radius: 50px;
+        margin-left: 20px;
+        margin-top: auto;
+    }
+
+    .image-all-footer{
+        width: 290px;
+        height: 570px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+
+    }
+
+    .image-all-footer-box-1{
+        width: 75px;
+        height: 15px;
+        border-radius: 20px;
+        margin-left: -33px;
+        margin-top: 100px;
+    }
+
+    .image-all-footer-box-2{
+        width: 95px;
+        height: 15px;
+        border-radius: 20px;
+        margin-left: -33px;
+        margin-top: 10px;
+    }
+
+    .fanka{
+        width: 360px;
+        height: 1500px;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .fanka-box-1{
+        width: 360px;
+    }
+
+    .fanka-box-1-1{
+        width: 360px;
+    }
+
+    .fanka-box-1-1-1{
+        width: 300px;
+        height: 300px;
+        border-radius: 150px;
+        margin-left: 30px;
+    }
+
+    .fanka-box-1-2-1{
+        width: 95px;
+        height: 15px;
+        border-radius: 20px;
+        margin-left: 90px;
+    }
+
+    .big_mac_menu{
+        width: 360px;
+        height: 4500px;
+    }
+
+    .spices{
+        width: 360px;
+    }
+
+    .salt{
+        width: 100px;
+        height: 20px;
+        border-radius: 20px;
+        margin-left: 55px;
+    }
+
+    .all_menu_burger{
+        width: 360px;
+        height: 3420px;
+
+    }
+
+    .burger-1{
+        width: 350px;
+    }
+
+    .potato{
+        width: 250px;
+        height: 250px;
+        display: flex;
+        align-items: center;
+        margin-left: 50px;
+    }
+
+    .french_fries{
+        width: 330px;
+        height: 150px;
+        border-radius: 50px;
+    }
+
+    .tomato{
+        width: 335px;
+        height: 30px;
+        display: flex;
+        align-items: center;
+    }
+
+    .tomato_box-1{
+        width: 133px;
+        height: 20px;
+        border-radius: 20px;
+        box-sizing: border-box;
+        margin-left: 18px;
+    }
+
+    .tomato_box-2{
+        width: 40px;
+        height: 20px;
+        background-color: black;
+        border-radius: 20px;
+        box-sizing: border-box;
+        margin-left: 66px;
+    }
+
+    .cucumber{
+        width: 316px;
+    }
+
+    .bread{
+        width: 324px;
+        height: 50px;
+        display: flex;
+        align-items: center;
+    }
+
+    .footer{
+        width: 360px;
+        height: 800px;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .footer_all_box-1{
+        width: 360px;
+        height: 400px;
+        margin: 0;
+        display: flex;
+        align-items: center;
+        margin-top: 90px;
+    }
+
+    .footer_all_box-1_1{
+        width: 129px;
+        height: 100px;
+        border-radius: 20px;
+        box-sizing: border-box;
+        margin-left: 120px;
+    }
+
+    .footer_all_box-2{
+        width: 360px;
+        height: 400px;
+        margin: 0;
+        display: flex;
+        align-items: center;
+    }
+
+    .footer_all_box-2_1{
+        width: 129px;
+        height: 100px;
+        border-radius: 20px;
+        box-sizing: border-box;
+        margin-left: 120px;
+    }
+
+    .aside{
+        width: 360px;
+        height: 100px;
+
+    }
+
+    .aside_box{
+        width: 81px;
+        height: 57px;
+        border-radius: 20px;
+        box-sizing: border-box;
+        margin-left: 142px;
+    }
+
+    }

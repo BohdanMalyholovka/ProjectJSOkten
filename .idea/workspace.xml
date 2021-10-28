@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="16c2f95d-a459-46a1-9982-2ebe594b5cfa" name="Changes" comment="Домашня робота по флексах." />
+    <list default="true" id="16c2f95d-a459-46a1-9982-2ebe594b5cfa" name="Changes" comment="test">
+      <change afterPath="$PROJECT_DIR$/hw4_/hw4_media.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw4_/hw4.css" beforeDir="false" afterPath="$PROJECT_DIR$/hw4_/hw4.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw4_/hw4.html" beforeDir="false" afterPath="$PROJECT_DIR$/hw4_/hw4.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,13 +21,21 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="GithubDefaultAccount">
     <option name="defaultAccountId" value="5d3bc9f3-9f28-48b1-9602-1615639a4602" />
@@ -65,7 +78,11 @@
       <workItem from="1635177798893" duration="13911000" />
       <workItem from="1635245714196" duration="3512000" />
       <workItem from="1635267945429" duration="388000" />
-      <workItem from="1635268338961" duration="100000" />
+      <workItem from="1635268338961" duration="274000" />
+      <workItem from="1635268617370" duration="2925000" />
+      <workItem from="1635419742266" duration="5974000" />
+      <workItem from="1635426086816" duration="97000" />
+      <workItem from="1635426218880" duration="14443000" />
     </task>
     <task id="LOCAL-00001" summary="Домашня робота по флексах.">
       <created>1635087575987</created>
@@ -74,7 +91,14 @@
       <option name="project" value="LOCAL" />
       <updated>1635087575987</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="test">
+      <created>1635268587465</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1635268587465</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -94,7 +118,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Домашня робота по флексах." />
-    <option name="LAST_COMMIT_MESSAGE" value="Домашня робота по флексах." />
+    <MESSAGE value="test" />
+    <option name="LAST_COMMIT_MESSAGE" value="test" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
