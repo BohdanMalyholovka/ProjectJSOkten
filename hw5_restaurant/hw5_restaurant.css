@@ -1,0 +1,653 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+    /*font-family: 'Roboto', sans-serif;*/
+    font-family: 'Tinos', serif;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+
+.home_page {
+    width: 1440px;
+    height: 6259px;
+    margin: 0;
+}
+
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.header {
+    height: 100vh;
+    background: url("image/bg.png") no-repeat center/cover;
+}
+
+.header__top {
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav__item img {
+    width: 20px
+}
+
+.nav {
+    display: flex;
+    column-gap: 23px;
+}
+
+.nav__item a {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.header__menu {
+    display: flex;
+    align-items: center;
+    height: 51px;
+    column-gap: 35px;
+
+}
+
+.header__phone {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+    width: 155px;
+    border-left: 2px solid #fff;
+    padding-left: 15px;
+
+}
+
+.header__contact {
+    display: flex;
+    align-items: center;
+    column-gap: 45px;
+}
+
+.header__button {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    color: #FFFFFF;
+    padding: 0 19px;
+    background-color: #FF7400;
+    height: 47px;
+    border: none;
+    cursor: pointer;
+}
+
+
+.header__title {
+    font-weight: normal;
+    color: #D67E35;
+    margin-top: 203px;
+    width: 500px;
+}
+
+.header__title h2 {
+    font-size: 50px;
+    line-height: 57px;
+    margin-left: 24px;
+}
+
+.header__title h1 {
+    font-size: 80px;
+    line-height: 92px;
+}
+
+.header__title p {
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 12px;
+}
+
+.header__title p::before,
+.header__title p::after {
+    content: "";
+    display: block;
+    width: 61px;
+    height: 2px;
+    background-color: #C4C4C4;
+}
+
+.header__title p::before {
+    margin-right: 10px;
+}
+
+.header__title p::after {
+    margin-left: 10px;
+}
+
+.header__main .header__button {
+    margin-top: 35px;
+}
+
+.header__main_btn {
+    display: flex;
+    justify-content: center;
+}
+
+.about_the_restaurant {
+    width: 100%;
+    height: 900px;
+
+}
+
+.description {
+    width: 1140px;
+    height: 328px;
+    margin-left: 166px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+
+}
+
+.box {
+    background-color: white;
+    width: 349px;
+    height: 328px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    bottom: 53px;
+    box-shadow: 0 0 47px -7px;
+}
+
+.box__food {
+    margin-top: 35px;
+}
+
+.box p {
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 30px;
+    text-align: center;
+    color: #656363;
+    margin-top: 20px;
+}
+
+.about_the_restaurant-1 {
+    display: flex;
+}
+
+.history {
+    width: 720px;
+    height: 747px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.history p {
+    width: 444px;
+    height: 217px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: #656363;
+}
+
+.assortment {
+    width: 444px;
+    height: 220px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.assortment__box-1 {
+    width: 148px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.assortment__box-1 span {
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 54px;
+    text-align: center;
+    color: #BC9060;
+}
+
+.assortment p {
+    width: 50px;
+    height: 50px;
+}
+
+.assortment__box-2 {
+    width: 148px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.assortment__box-2 span {
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 54px;
+    text-align: center;
+    color: #BC9060;
+}
+
+.assortment__box-3 {
+    width: 148px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.assortment__box-3 span {
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 54px;
+    text-align: center;
+    color: #BC9060;
+}
+
+.Pictures__food {
+    position: relative;
+
+    margin: 0;
+    padding: 0;
+
+}
+
+.design_box {
+    position: absolute;
+    z-index: 1;
+    top: 33px;
+    margin-left: 350px;
+}
+
+.Picture-1 {
+    position: absolute;
+    z-index: 2;
+    margin-left: 250px;
+}
+
+.Picture-2 {
+    position: absolute;
+    z-index: 3;
+    margin-bottom: 100px;
+    margin-left: 55px;
+}
+
+.Picture-3 {
+    position: relative;
+    z-index: 3;
+    top: 197px;
+    margin-left: 350px;
+}
+
+.business_launch {
+    height: 357px;
+    background: url("image/business_launch.png");
+    display: flex;
+}
+
+.action {
+    width: 900px;
+    height: 357px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.action h2 {
+    width: 650px;
+    height: 200px;
+    font-weight: normal;
+    font-size: 52px;
+    line-height: 60px;
+    color: #D67E34;
+    margin-top: 75px;
+}
+
+.action p {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 33px;
+    color: #FFFFFF;
+    margin-right: 110px;
+}
+
+.business__btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 250px;
+}
+
+.dishes {
+    width: 1440px;
+    height: 963px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.header__dishes {
+    width: 1440px;
+    height: 326px;
+    display: flex;
+    align-items: center;
+}
+
+.header__dishes__img {
+    display: flex;
+    margin-left: 550px;
+}
+
+.pizza {
+    width: 600px;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    top: 100px;
+}
+
+.pizza__img {
+    top: 100px;
+    margin-left: 120px;
+}
+
+.burgers {
+    width: 800px;
+    height: 580px;
+
+}
+
+.burger {
+    display: flex;
+    align-items: center;
+    margin-top: 42px;
+}
+
+.burger p {
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 30px;
+    color: #000000;
+}
+
+.burger h3 {
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 30px;
+    color: #000000;
+}
+
+.menu__of__hamburgers {
+    width: 1440px;
+    height: 1043px;
+    background: url("image/bar-1869656_1920 2.png");
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.our__menu {
+    width: 1440px;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu__of__hamburgers h2 {
+    font-weight: normal;
+    font-size: 54px;
+    line-height: 62px;
+    color: #FFFFFF;
+    margin-left: 550px;
+    margin-top: 100px;
+}
+
+.hamburger {
+    width: 350px;
+    height: 510px;
+    background-color: white;
+}
+
+.hamburger__img {
+    width: 224px;
+    height: 224px;
+    background: url("image/abstract-1238247_1920 1.png");
+    border-radius: 100%;
+    position: relative;
+    margin-top: 80px;
+    margin-left: 70px;
+
+}
+
+.hamburger__price {
+    width: 100px;
+    height: 100px;
+    background: #D67E34;
+    border: 7px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    margin-left: 120px;
+    margin-top: 130px;
+}
+
+.hamburger__price p {
+    font-size: 30px;
+    line-height: 33px;
+    color: #FFFFFF;
+    margin-left: 25px;
+}
+
+.hamburger h3 {
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 30px;
+    color: #000000;
+    margin-top: 30px;
+    margin-left: 78px;
+}
+
+.hamburger p {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: #000000;
+    margin-top: 20px;
+}
+
+.hamburger__button{
+    font-size: 14px;
+    line-height: 19px;
+    color: #FFFFFF;
+    padding: 0 19px;
+    background-color: #FF7400;
+    height: 47px;
+    border: none;
+    cursor: pointer;
+    margin-top: 15px;
+    margin-left: 125px;
+}
+
+.reviews{
+    width: 1440px;
+    height: 550px;
+    background-color:  #E6E5E5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.reviews p{
+    width: 850px;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+    color: #000000;
+    margin-left: 290px;
+
+}
+
+.reviews__img{
+    width: 100px;
+    height: 100px;
+    background: url("image/mask_9.png");
+    border-radius: 50px;
+    margin-left: 653px;
+    margin-top: 30px;
+}
+
+.reviews h3{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    color: #000000;
+    margin-left: 653px;
+    margin-top: 20px;
+}
+
+.reviews span{
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 27px;
+    color: #000000;
+    margin-left: 670px;
+    margin-top: 10px;
+}
+
+.gallery_of_dishes{
+    width: 1440px;
+    height: 1632px;
+}
+
+.gallery_of_dishes__img{
+    width: 1440px;
+    height: 163px;
+    display: flex;
+    align-items: center;
+
+}
+
+.gallery_of_dishes__img__foto{
+    width: 317px;
+    height: 62px;
+    margin-left: 550px;
+    margin-top: 90px;
+}
+
+.gallery_of_dishes__picture{
+    width: 1110px;
+    height: 368px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 170px;
+}
+
+.gallery_of_dishes-1{
+    width: 1110px;
+    height: 368px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 170px;
+}
+
+.gallery_of_chef__img{
+    width: 1440px;
+    height: 163px;
+    display: flex;
+    align-items: center;
+}
+
+.gallery_of_chef__img__foto{
+    width: 317px;
+    height: 62px;
+    margin-left: 550px;
+    margin-top: 90px;
+}
+
+.gallery_of_chef__picture{
+    width: 1114px;
+    height: 526px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 170px;
+}
+
+.fon{
+    width: 1440px;
+    height: 720px;
+    background: url("image/fon.png");
+}
