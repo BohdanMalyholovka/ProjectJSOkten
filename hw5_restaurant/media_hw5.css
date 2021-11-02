@@ -1,10 +1,384 @@
-@media screen and (max-width: 350px) {
-
-    .nav{
+@media screen and (max-width: 348px) {
+    .header{
+        width: 348px;
+    }
+    .header__menu{
         display: none;
     }
 
-    .shortcut_menu{
+    .nav__btn_mobile{
         display: block;
     }
-}
+
+    .header__logo img{
+        width: 55px;
+        height: 50px;
+        margin-bottom: 20px;
+    }
+    .wrapper{
+        max-width: 340px;
+        padding: 0 10px;
+    }
+    .header__top{
+        padding-top: 20px;
+    }
+
+    .header__title{
+        text-align: center;
+
+    }
+
+    .header__title h2 {
+        font-size: 30px;
+        line-height: 36px;
+
+    }
+
+    .header__title h1{
+        font-size: 40px;
+        line-height: 46px;
+        margin-left: 20px;
+    }
+
+    .header__title p{
+        margin-left: 10px;
+    }
+
+    .header__title p::before,
+    .header__title p::after{
+        display: none;
+
+    }
+
+    .header__main_btn{
+        margin-left: 10px;
+    }
+
+    .about_the_restaurant{
+        width: 348px;
+        height: 1980px;
+    }
+
+    .description{
+        width: 290px;
+        height: 856px;
+        display: flex;
+        flex-direction: column;
+        margin-left: 29px;
+    }
+
+    .box{
+        width: 290px;
+        height: 276px;
+    }
+
+
+    .box p{
+        font-size: 20px;
+        margin-top: 5px;
+    }
+
+    .about_the_restaurant-1{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .history{
+        width: 348px;
+        margin-top: 20px;
+    }
+
+    .history__our-history img{
+        width: 180px;
+        height: 50px;
+    }
+
+    .history p {
+        width: 320px;
+        margin-top: 20px;
+    }
+
+    .assortment{
+        width: 348px;
+        display: flex;
+        flex-direction: column;
+        margin-top: 70px;
+    }
+
+    .Pictures__food{
+        width: 348px;
+        position: relative;
+        margin: 0;
+        padding: 0;
+    }
+
+    .design_box img{
+        width: 114px;
+        height: 84px;
+    }
+
+    .Picture-1 img{
+        width: 137px;
+        height: 221px;
+
+    }
+
+    .Picture-2 img{
+        width: 150px;
+        height: 200px;
+    }
+
+    .Picture-3 img{
+        width: 125px;
+        height: 160px;
+    }
+
+    .design_box{
+        margin-left: 185px;
+    }
+
+    .Picture-1{
+        margin-top: 7px;
+        margin-left: 139px;
+    }
+
+    .Picture-2{
+        margin-top: 20px;
+        margin-left: 42px;
+    }
+
+    .Picture-3{
+        margin-top: -84px;
+        margin-left: 198px;
+    }
+
+    .business_launch{
+        width: 348px;
+        height: 360px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .action{
+        width: 348px;
+        height: 284px;
+    }
+
+    .action h2{
+        width: 300px;
+        height: 180px;
+        font-size: 34px;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .action p{
+        width: 200px;
+        height: 80px;
+        font-size: 20px;
+        text-align: center;
+        margin-left: 105px;
+    }
+
+    .business__btn{
+        width: 139px;
+        height: 43px;
+        margin-left: 104px;
+    }
+
+    .dishes{
+        width: 348px;
+        height: 1400px;
+    }
+
+    .header__dishes{
+        width: 348px;
+    }
+
+    .header__dishes__img{
+        width: 180px;
+        margin-left: 80px;
+    }
+
+    .header__dishes__img img{
+        width: 180px;
+        height: 50px;
+    }
+
+    .pizza{
+        width: 348px;
+        height: 400px;
+    }
+
+    .pizza__img{
+        width: 348px;
+        height: 400px;
+        margin-top: 0;
+        margin-left: 0;
+    }
+
+    .pizza__img img{
+        width: 348px;
+        height: 400px;
+        margin: 0;
+    }
+
+    .burger img{
+        width: 120px;
+        height: 120px;
+        margin-left: 15px;
+
+    }
+
+    .burger p{
+        display: none;
+    }
+
+    .burger span{
+        width: 127px;
+        height: 62px;
+        display: block;
+        margin-left: 10px;
+    }
+
+    .menu__of__hamburgers{
+        width: 348px;
+        height: 2000px;
+
+    }
+
+    .our__menu{
+        width: 348px;
+        height: 150px;
+    }
+
+    .our__menu h2{
+        margin-left: 40px;
+    }
+
+    .hamburger{
+        width: 300px;
+        height: 500px;
+        text-align: center;
+    }
+
+    .hamburger__img{
+    margin-left: 45px;
+    }
+
+    .hamburger h3{
+        margin-left: 17px;
+    }
+
+    .hamburger p{
+        margin-left: 20px;
+    }
+
+    .hamburger__button{
+        margin-left: 30px;
+    }
+
+    .reviews{
+        width: 348px;
+        height: 550px;
+
+    }
+
+    .reviews p{
+        width: 340px;
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+    .reviews__img{
+        margin-left: 111px;
+    }
+
+    .reviews h3{
+        margin-left: 116px;
+    }
+
+    .reviews span{
+        margin-left: 128px;
+    }
+
+    .gallery_of_dishes{
+        width: 348px;
+        height: 4500px;
+        background-color: #01cfd2;
+    }
+
+    .gallery_of_dishes__img__foto{
+        width: 248px;
+        height: 100px;
+        margin-left: 80px;
+    }
+    .gallery_of_dishes__img__foto img{
+        width: 180px;
+        height: 50px;
+    }
+
+    .gallery_of_dishes__picture{
+        width: 348px;
+        height: 1090px;
+        margin-left: 25px;
+    }
+    .gallery_of_dishes__picture-1 img{
+        width: 300px;
+        height: 350px;
+    }
+
+    .gallery_of_dishes__picture-2 img{
+        width: 300px;
+        height: 350px;
+    }
+
+    .gallery_of_dishes__picture-3 img{
+        width: 300px;
+        height: 350px;
+    }
+
+    .gallery_of_dishes-1{
+        width: 348px;
+        height: 1090px;
+        margin-left: 25px;
+    }
+
+    .gallery_of_chef__img__foto{
+        width: 348px;
+        margin-left: 90px;
+    }
+
+    .gallery_of_chef__img__foto img{
+        width: 180px;
+        height: 50px;
+    }
+
+    .gallery_of_chef__picture{
+        width: 310px;
+        height: 1190px;
+        margin-left: 20px;
+    }
+
+    .chef_1 img{
+        width: 310px;
+        height: 380px;
+    }
+
+    .chef_2 img{
+        width: 310px;
+        height: 380px;
+    }
+
+    .chef_3 img{
+        width: 310px;
+        height: 380px;
+    }
+
+    .fon{
+        width: 348px;
+        height: 900px;
+    }
+
+
+    }

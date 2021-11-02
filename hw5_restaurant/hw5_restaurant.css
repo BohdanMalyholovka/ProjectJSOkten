@@ -82,10 +82,9 @@ table {
     color: #FFFFFF;
     text-decoration: none;
 }
-.shortcut_menu {
+.nav__btn_mobile {
     width: 50px;
     height: 50px;
-    background-color: yellow;
     justify-content: center;
     flex-direction: column;
     display: none;
@@ -97,7 +96,7 @@ table {
     height: 5px;
     background-color: #FF7400;
     border-radius: 10px;
-    margin-top: 3px;
+    margin-top: 4px;
 }
 
 .header__menu {
@@ -142,7 +141,7 @@ table {
     font-weight: normal;
     color: #D67E35;
     margin-top: 203px;
-    width: 500px;
+    max-width: 500px;
 }
 
 .header__title h2 {
@@ -318,7 +317,6 @@ table {
 
 .Pictures__food {
     position: relative;
-
     margin: 0;
     padding: 0;
 
@@ -425,7 +423,6 @@ table {
 .burgers {
     width: 800px;
     height: 580px;
-
 }
 
 .burger {
@@ -434,6 +431,12 @@ table {
     margin-top: 42px;
 }
 
+.burger span{
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 30px;
+    color: #000000;
+}
 .burger p {
     font-weight: normal;
     font-size: 26px;
