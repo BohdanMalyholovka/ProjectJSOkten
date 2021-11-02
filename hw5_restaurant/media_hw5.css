@@ -307,6 +307,10 @@
         height: 4500px;
     }
 
+    .gallery_of_dishes__img{
+        width: 348px;
+    }
+
     .gallery_of_dishes__img__foto{
         width: 248px;
         height: 100px;
@@ -341,6 +345,10 @@
         width: 348px;
         height: 1090px;
         margin-left: 25px;
+    }
+
+    .gallery_of_chef__img{
+        width: 348px;
     }
 
     .gallery_of_chef__img__foto{
