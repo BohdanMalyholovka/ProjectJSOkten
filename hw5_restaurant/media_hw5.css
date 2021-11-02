@@ -1,9 +1,10 @@
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 350px) {
 
-    .header__menu{
+    .nav{
         display: none;
     }
-    .header__logo{
-        width: 40px;
+
+    .shortcut_menu{
+        display: block;
     }
 }

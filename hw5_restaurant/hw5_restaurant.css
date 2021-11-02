@@ -51,20 +51,10 @@ table {
 }
 
 
-.home_page {
-    width: 1440px;
-    height: 6259px;
-    margin: 0;
-}
 
-.wrapper {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 20px;
-}
 
 .header {
-    height: 100vh;
+    height: 800px;
     background: url("image/bg.png") no-repeat center/cover;
 }
 
@@ -91,6 +81,23 @@ table {
     line-height: 19px;
     color: #FFFFFF;
     text-decoration: none;
+}
+.shortcut_menu {
+    width: 50px;
+    height: 50px;
+    background-color: yellow;
+    justify-content: center;
+    flex-direction: column;
+    display: none;
+
+
+}
+.strip{
+    width: 45px;
+    height: 5px;
+    background-color: #FF7400;
+    border-radius: 10px;
+    margin-top: 3px;
 }
 
 .header__menu {
@@ -346,7 +353,7 @@ table {
 
 .business_launch {
     height: 357px;
-    background: url("image/business_launch.png");
+    background: url("image/business_launch.png") ;
     display: flex;
 }
 
@@ -444,7 +451,7 @@ table {
 .menu__of__hamburgers {
     width: 1440px;
     height: 1043px;
-    background: url("image/bar-1869656_1920 2.png");
+    background: url("image/bar-1869656_1920 2.png") ;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
