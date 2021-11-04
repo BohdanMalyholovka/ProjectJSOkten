@@ -1,0 +1,425 @@
+@media screen and (max-width: 370px) {
+    .header {
+        width: 370px;
+        height: 1871px;
+    }
+
+    .header__menu {
+        display: none;
+    }
+
+    .nav__btn_mobile {
+        display: block;
+        margin-top: 22px;
+    }
+
+    .header__logo {
+        margin-left: 35px;
+    }
+
+    .professional_air_conditioners{
+        height: 1355px;
+        width: 100%;
+    }
+
+    .text{
+        width: 100%;
+        height: 549px;
+        margin-top: 20px;
+    }
+
+    .Title{
+        width: 100%;
+        height: 226px;
+        margin-top: 0;
+        margin-left: 0;
+    }
+
+    .Title p{
+        font-weight: bold;
+        font-size: 34px;
+        line-height: 18px;
+        text-align: center;
+        letter-spacing: -0.4px;
+        margin-left: -11px;
+    }
+
+    .Title img{
+        margin-left: 75px;
+    }
+
+    .description{
+        width: 100%;
+        height: 300px;
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+    .description p{
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 32px;
+        letter-spacing: -0.004em;
+    }
+
+    .description img{
+        margin-left: 75px;
+    }
+
+    .Air_Colled_Chillers{
+        width: 100%;
+        height: 444px;
+        margin-top: -10px;
+    }
+
+    .Air_Colled_Chillers img{
+        width: 100%;
+        height: 400px;
+        margin-left: 0;
+    }
+
+    .ENERGIEEFFIZIENZ{
+        width: 100%;
+        height: 272px;
+        display: flex;
+        flex-direction: column;
+        margin-top: -20px;
+    }
+
+    .Multistage{
+        width: 100%;
+        height: 444px;
+    }
+
+    .Multistage img{
+        width: 100%;
+        height: 282px;
+        margin-left: 0;
+        margin-top: 30px;
+    }
+
+    .focus{
+        width: 100%;
+        height: 400px;
+    }
+
+    .focus h2{
+        width: 81%;
+        height: 76px;
+        margin-left: 35px;
+    }
+
+    .focus p{
+        width: 89%;
+        height: 242px;
+        font-weight: normal;
+        font-size: 17px;
+        line-height: 32px;
+        margin-left: 20px;
+    }
+
+    .standarts{
+        width: 100%;
+        height: 1000px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .plant img{
+        width: 100%;
+    }
+
+    .MODERNSTE_STANDARDS{
+        width: 100%;
+    }
+
+    .MODERNSTE_STANDARDS h2{
+        width: 100%;
+        height: 41px;
+
+        margin-top: 8px;
+        margin-left: 0;
+    }
+
+    .MODERNSTE_STANDARDS p{
+        width: 96%;
+        height: 161px;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 32px;
+        letter-spacing: -0.4px;
+        margin-left: 8px;
+    }
+
+    .specialization{
+        width: 100%;
+        height: 1052px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .text-1{
+        width: 100%;
+        height: 650px;
+    }
+
+    .empty_box{
+        width: 100%;
+        height: 62px;
+    }
+
+    .text-1 h3{
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 40px;
+        text-align: center;
+        letter-spacing: 2.42px;
+        text-transform: uppercase;
+        transform: rotate(0.02deg);
+        margin-left: -3px;
+    }
+
+    .text-1 p{
+        width: 100%;
+        height: 200px;
+        font-weight: normal;
+        font-size: 17px;
+        line-height: 32px;
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+
+    .text-1 h5{
+        width: 100%;
+        height: 178px;
+        font-weight: normal;
+        font-size: 17px;
+        line-height: 32px;
+        margin-left: 20px;
+        margin-top: -100px;
+    }
+
+    .specialization img{
+        width: 144%;
+        height: 400px;
+        margin-left: -162px;
+    }
+
+    .BENEFITS{
+        width: 100%;
+        height: 1580px;
+    }
+
+    .your_benefits{
+        width: 100%;
+        height: 100px;
+    }
+
+    .container{
+        width: 100%;
+        height: 1453px;
+
+    }
+
+    .boxes{
+        width: 104%;
+        height: 1450px;
+        margin-left: -7px;
+    }
+
+    .box-2 p{
+        margin-top: 39px;
+        margin-left: 45px;
+    }
+
+    .box-3 p{
+        margin-top: 39px;
+        margin-left: 45px;
+    }
+    .box-4 p{
+    margin-top: 18px;
+    }
+
+    .box-5 p{
+        margin-top: 39px;
+        margin-left: 45px;
+    }
+
+    .box-6 p{
+        margin-top: 39px;
+        margin-left: 45px;
+    }
+
+    .box-7 p{
+        margin-top: 39px;
+        margin-left: 45px;
+    }
+
+    .box-8 p{
+        margin-top: 39px;
+        margin-left: 45px;
+    }
+
+    .box-9 p{
+        margin-top: 39px;
+        margin-left: 45px;
+    }
+
+    .box-10 p{
+        margin-top: 39px;
+        margin-left: 45px;
+    }
+
+    .CHARACTERISTICS{
+        width: 100%;
+        height: 2000px;
+    }
+
+    .main_characteristics{
+        width: 100%;
+        height: 100px;
+    }
+
+    .container-2{
+        width: 95%;
+        height: 1894px;
+        margin-top: 0;
+        margin-left: 9px;
+    }
+    .container-2_1{
+        width: 100%;
+        height: 135px;
+    }
+
+    .container-2_1 p{
+        width: 82%;
+        height: 100px;
+    }
+
+    .picture{
+        width: 100%;
+        height: 800px;
+    }
+
+    .our_picture{
+        width: 100%;
+        height: 100px;
+     }
+
+    .machine img{
+        width: 98%;
+        height: 481px;
+        margin-top: 0px;
+        margin-left: 4px;
+    }
+
+    .control_menu{
+        width: 100%;
+        height: 100px;
+    }
+
+    .left_arrow{
+        display: none;
+    }
+
+    .right_arrow{
+        display: none;
+    }
+
+    .dot{
+        margin-left: 148px;
+    }
+
+    .visitors{
+        width: 100%;
+        height: 100px;
+    }
+
+    .buttons{
+        width: 100%;
+        height: 385px;
+    }
+
+    .reviews{
+        width: 100%;
+        height: 380px;
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+    .review-1{
+        width: 98%;
+        margin-left: 3px;
+    }
+
+    .review-2{
+        width: 98%;
+        margin-left: 3px;
+    }
+
+    .review-3{
+        width: 98%;
+        margin-left: 3px;
+    }
+
+    .review-4{
+        width: 98%;
+        margin-left: 3px;
+    }
+
+    .review-5{
+        width: 98%;
+        margin-left: 3px;
+    }
+
+    .termin{
+        width: 100%;
+        height: 855px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .termin_text{
+        width: 100%;
+        height: 165px;
+    }
+
+    .termin_text p{
+        font-weight: bold;
+        font-size: 26px;
+        line-height: 43px;
+        letter-spacing: -0.4px;
+        margin-top: -80px;
+        margin-left: 34px;
+    }
+
+    .contact{
+        width: 100%;
+        height: 400px;
+    }
+
+    .contact p{
+        width: 95%;
+        height: 300px;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 32px;
+        letter-spacing: -0.4px;
+        margin-left: 10px;
+    }
+
+    .button_contact{
+        margin-left: 32px;
+        margin-top: 0;
+    }
+
+    .logo_gray{
+        width: 100%;
+        height: 400px;
+    }
+
+    .logo_gray img{
+        margin-top: -40px;
+    }
+}
+
