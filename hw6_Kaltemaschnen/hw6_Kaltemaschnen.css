@@ -26,11 +26,13 @@
 }
 
 .strip{
-    width: 45px;
-    height: 5px;
-    background-color: #FF7400;
+    width: 26px;
+    height: 3px;
+    background: #C4C4C4;
+    box-shadow: inset 0.5px 1px 1px;
     border-radius: 10px;
-    margin-top: 4px;
+    margin-top: 5px;
+
 }
 
 .nav{
