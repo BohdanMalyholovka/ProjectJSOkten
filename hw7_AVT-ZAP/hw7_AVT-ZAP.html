@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="hw7_AVT-ZAP.css" type="text/css">
+    <title>AVT-ZAP</title>
+</head>
+<body>
+
+<div class="header_top_left">
+    <div class="geolocation_vector">
+        <div class="geolocation_picture-1">
+            <img src="picture/geolocation%20(2).png" alt="geolocation-1"></div>
+        <div class="geolocation_picture-2">
+            <img src="picture/geolocation%20(3).png" alt="geolocation-2"></div>
+    </div>
+
+    <div class="btn-group-1">
+        <div class="btn-group">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                Ваш город:
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <li><a class="dropdown-item" href="#">Львів</a></li>
+                <li><a class="dropdown-item" href="#">Дрогобич</a></li>
+                <li><a class="dropdown-item" href="#">Борислав</a></li>
+                <li><a class="dropdown-item" href="#">Самбір</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="btn-group-2">
+        <div class="btn-group">
+            <button class="btn btn-secondary dropdown-toggle" type="button"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                Информация
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <li><a class="dropdown-item" href="#">Каталог автозапчастей</a></li>
+                <li><a class="dropdown-item" href="#">Аксессуары и принадлежности</a></li>
+                <li><a class="dropdown-item" href="#">О магазине</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="btn-group-3">
+        <div class="btn-group">
+            <button class="btn btn-secondary dropdown-toggle" type="button"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                Сотрудничество
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <li><a class="dropdown-item" href="#">Контакти</a></li>
+                <li><a class="dropdown-item" href="#">Поради</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="header_top_right">
+        <div class="header_menu_right_box-1"><a href="#">Доставка</a></div>
+        <div class="header_menu_right_box-2"><a href="#">Оплата</a></div>
+        <div class="header_menu_right_box-3"><a href="#">Гарантия</a></div>
+        <div class="header_menu_right_box-4"><a href="#">Новости</a></div>
+        <div class="header_menu_right_box-5"><a href="#">Журнал</a></div>
+        <div class="header_menu_right_box-6"><a href="#">О магазине</a></div>
+        <div class="header_menu_right_box-7"><a href="#">Контакты</a></div>
+    </div>
+</div>
+
+<div class="search_menu">
+    <div class="logo_picture">
+        <div class="logo"><img src="picture/logo.png" alt="logo"></div>
+        <div class="time"><img src="picture/time.png" alt="time"></div>
+        <div class="location"><img src="picture/location.png" alt="location"></div>
+        <div class="whatsapp">
+            <button>
+                <img src="picture/whatsapp%20(2)%201.png" alt="whatsapp">
+                <p>Напишите нам в WhatsApp</p>
+            </button>
+        </div>
+        <div class="header_contact">
+            <p>+7 383 291 92 86</p>
+            <div class="header_contact_btn"><a href="#">форма обратной связи</a></div>
+        </div>
+    </div>
+
+    <div class="registration">
+        <div class="katalog"><a href="#">
+            <img src="picture/Group%20138.png" alt="line">
+            Каталог</a></div>
+        <div class="registration_form">
+            <input placeholder="Поиск по наименованию или артикулу" type="search">
+        </div>
+        <div class="btn_search"><a href="#">Найти</a></div>
+        <div class="buttons_group">
+            <div class="sign_up">
+                <img src="picture/user%20(1)%201.png" alt="user">
+                <a href="#">Войти</a>
+            </div>
+            <img src="picture/Vector%2022.png" alt="Vector-22">
+            <div class="like">
+                <img src="picture/Vector.png" alt="Vector">
+                <a href="#">Избранное</a>
+            </div>
+            <img src="picture/Vector%2022.png" alt="Vector-22">
+            <div class="basket">
+                <img src="picture/Group.png" alt="user">
+                <a href="#">В корзине
+                    нет товаров</a>
+            </div>
+
+        </div>
+    </div>
+
+
+</div>
+
+<div class="product">
+    <div class="product__boxes">
+        <div class="product__box__1">
+            <div class="clutch">
+                <div class="clutch_picture-1"><img src="picture/fon.jpg" alt="fon"></div>
+                <div class="clutch_picture-2"><img src="picture/avt-zap_main_page_v01%20(1)%201.png" alt="clutch"></div>
+                <h2>Сцепление в сборе</h2>
+                <h4>0AMCLUTCH</h4>
+                <p>14 499,99 ₽</p>
+                <h5>18 550,99 ₽ </h5>
+                <div class="clutch_btn"><a href="#"><img src="picture/Group%20(1).png" alt="basket">В корзину</a></div>
+                <div class="left_arrow"><a href="#"><img src="picture/Chevron%20Right%201.png" alt="left_arrow"></a>
+                </div>
+                <div class="right_arrow"><a href="#"><img src="picture/Chevron%20Right%201%20(1).png" alt="right_arrow"></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="action">
+            <div class="action__box">
+                <div class="action__box__text"><p>Акция</p></div>
+                <div class="action__box__picture">
+                    <img src="picture/avt-zap_main_page_v01%20(1)йцу%205.png" alt="avt-zap_main_page">
+                    <div class="action__box__text__1">
+                        <img src="picture/Обгонная%20муфта%20гидротрансформатор.png" alt="mufta">
+                        <h5>BW-SP-2 SONNAX</h5>
+                    </div>
+                </div>
+                <div class="price">
+                    <div class="price__box-1"><img src="picture/4%20430₽.png" alt="price_picture"></div>
+                    <div class="price__box-2"><img src="picture/5%20430₽.png" alt="price_picture"></div>
+                    <div class="price__btn"><a href="#"><img src="picture/Group%20(2).png" alt="Group"></a></div>
+                </div>
+            </div>
+            <div class="action__box">
+                <div class="action__box__text"><p>Акция</p></div>
+                <div class="action__box__picture">
+                    <img src="picture/avt-zap_main_page_v01%20(1)йцу%207%20(1).png" alt="avt-zap_main_page">
+                    <div class="action__box__text__1">
+                        <img src="picture/Обгонная%20муфта%20гидротрансформатор.png" alt="mufta">
+                        <h5>BW-SP-2 SONNAX</h5>
+                    </div>
+                </div>
+                <div class="price">
+                    <div class="price__box-1"><img src="picture/4%20430₽.png" alt="price_picture"></div>
+                    <div class="price__box-2"><img src="picture/5%20430₽.png" alt="price_picture"></div>
+                    <div class="price__btn"><a href="#"><img src="picture/Group%20(2).png" alt="Group"></a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="scroll">
+        <div class="oil">
+            <div class="oil__text">
+                <h3>Масла</h3>
+                <p>Трансмиссионное масло;
+                    присалка в масло акпп</p>
+                <div class="oil__btn"><a href="#">Перейти</a></div>
+                <div class="oil__left__arrow"><a href="#"><img src="picture/Chevron%20Right%201.png"
+                                                               alt="oil__left__arrow"></a></div>
+            </div>
+            <div class="oil__picture"><img src="picture/oil.png" alt="oil"></div>
+        </div>
+        <div class="oil">
+            <div class="oil__text">
+                <h3>Фильтры</h3>
+                <p>Масляный фильтр;
+                    фильтр воздушный</p>
+                <div class="oil__btn"><a href="#">Перейти</a></div>
+            </div>
+            <div class="oil__picture"><img src="picture/fltr.png" alt="fltr"></div>
+        </div>
+        <div class="oil">
+            <div class="oil__text">
+                <h3>Радиаторы</h3>
+                <p>Дополнительные
+                    радиаторы</p>
+                <div class="oil__btn"><a href="#">Перейти</a></div>
+                <div class="oil__right__arrow"><a href="#"><img src="picture/Chevron%20Right%201%20(1).png"
+                                                                alt="oil__right__arrow"></a></div>
+            </div>
+            <div class="oil__picture"><img src="picture/radiator.png" alt="radiator"></div>
+        </div>
+    </div>
+
+    <div class="nav">
+        <div class="nav__btn_1"><a href="#">Подборки товаров</a></div>
+        <div class="nav__btn_2"><a href="#">Акции</a></div>
+        <div class="nav__btn_3"><a href="#">Сейчас покупают</a></div>
+    </div>
+
+    <div class="auto__parts_1">
+        <div class="auto__parts_1__1">
+            <div class="auto__parts_1__1__picture"><img src="picture/avt-zap_main_page_v01%20(1)йцу%2012.png"></div>
+            <div class="reviews">
+                <div class="reviews__picture"><img src="picture/Group%20224.png" alt="Group224"></div>
+                <a href="#">10 отзывов</a>
+            </div>
+            <h5>Intermediate accumelator sleeve</h5>
+            <div class="auto__parts_1__1__price">
+                <p>ЦЕНА</p>
+                <a href="#">по запросу</a>
+            </div>
+
+            <div class="auto__parts_1__1__btn">
+                <div class="auto__parts_1__1__btn-1"><a href="#"><img src="picture/Group%20(1).png" alt="basket">В
+                    корзину</a></div>
+                <div class="auto__parts_1__1__btn__like"><a href="#"><img src="picture/Vector%20(1).png" alt="Vector-1"></a>
+                </div>
+                <div class="auto__parts_1__1__btn__statuc"><a href="#"><img src="picture/Group%20147.png"
+                                                                            alt="Group-147"></a>
+                </div>
+            </div>
+        </div>
+        <div class="auto__parts_1__1">
+            <div class="auto__parts_1__1__picture"><img src="picture/avt-zap_main_page_v01%20(1)йцу%207%20(2).png">
+            </div>
+            <div class="reviews">
+                <div class="reviews__picture"><img src="picture/Group%20224.png" alt="Group224"></div>
+                <a href="#">10 отзывов</a>
+            </div>
+            <h5>Intermediate accumelator sleeve</h5>
+            <div class="auto__parts_1__1__price">
+                <div class="auto__parts_1__1__price-1"><img src="picture/4%20430₽.png" alt="price_picture"></div>
+                <div class="auto__parts_1__1__price-2"><img src="picture/5%20430₽.png" alt="price_picture"></div>
+            </div>
+
+            <div class="auto__parts_1__1__btn">
+                <div class="auto__parts_1__1__btn-1"><a href="#"><img src="picture/Group%20(1).png" alt="basket">В
+                    корзину</a></div>
+                <div class="auto__parts_1__1__btn__like"><a href="#"><img src="picture/Vector%20(1).png" alt="Vector-1"></a>
+                </div>
+                <div class="auto__parts_1__1__btn__statuc"><a href="#"><img src="picture/Group%20147.png"
+                                                                            alt="Group-147"></a>
+                </div>
+            </div>
+        </div>
+        <div class="auto__parts_1__1">
+            <div class="auto__parts_1__1__picture"><img src="picture/avt-zap_main_page_v01%20(1)йцу%2012.png"></div>
+            <div class="reviews">
+                <div class="reviews__picture"><img src="picture/Group%20224.png" alt="Group224"></div>
+                <a href="#">10 отзывов</a>
+            </div>
+            <h5>Intermediate accumelator sleeve</h5>
+            <div class="auto__parts_1__1__price">
+                <p>ЦЕНА</p>
+                <a href="#">по запросу</a>
+            </div>
+
+            <div class="auto__parts_1__1__btn">
+                <div class="auto__parts_1__1__btn-1"><a href="#"><img src="picture/Group%20(1).png" alt="basket">В
+                    корзину</a></div>
+                <div class="auto__parts_1__1__btn__like"><a href="#"><img src="picture/Vector%20(1).png" alt="Vector-1"></a>
+                </div>
+                <div class="auto__parts_1__1__btn__statuc"><a href="#"><img src="picture/Group%20147.png"
+                                                                            alt="Group-147"></a>
+                </div>
+            </div>
+        </div>
+        <div class="auto__parts_1__1">
+            <div class="auto__parts_1__1__picture"><img src="picture/avt-zap_main_page_v01%20(1)йцу%2013%20(1).png">
+            </div>
+            <div class="reviews">
+                <div class="reviews__picture"><img src="picture/Group%20224.png" alt="Group224"></div>
+                <a href="#">10 отзывов</a>
+            </div>
+            <h5>Intermediate accumelator sleeve</h5>
+            <div class="auto__parts_1__1__price">
+                <p>ЦЕНА</p>
+                <a href="#">по запросу</a>
+            </div>
+
+            <div class="auto__parts_1__1__btn">
+                <div class="auto__parts_1__1__btn-1"><a href="#"><img src="picture/Group%20(1).png" alt="basket">В
+                    корзину</a></div>
+                <div class="auto__parts_1__1__btn__like"><a href="#"><img src="picture/Vector%20(1).png" alt="Vector-1"></a>
+                </div>
+                <div class="auto__parts_1__1__btn__statuc"><a href="#"><img src="picture/Group%20147.png"
+                                                                            alt="Group-147"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="line__between"></div>
+
+    <div class="auto__parts_1">
+        <div class="auto__parts_1__1">
+            <div class="auto__parts_1__1__picture"><img src="picture/avt-zap_main_page_v01%20(1)йцу%2012.png"></div>
+            <div class="reviews">
+                <div class="reviews__picture"><img src="picture/Group%20224.png" alt="Group224"></div>
+                <a href="#">10 отзывов</a>
+            </div>
+            <h5>Intermediate accumelator sleeve</h5>
+            <div class="auto__parts_1__1__price">
+                <p>ЦЕНА</p>
+                <a href="#">по запросу</a>
+            </div>
+
+            <div class="auto__parts_1__1__btn">
+                <div class="auto__parts_1__1__btn-1"><a href="#"><img src="picture/Group%20(1).png" alt="basket">В
+                    корзину</a></div>
+                <div class="auto__parts_1__1__btn__like"><a href="#"><img src="picture/Vector%20(1).png" alt="Vector-1"></a>
+                </div>
+                <div class="auto__parts_1__1__btn__statuc"><a href="#"><img src="picture/Group%20147.png"
+                                                                            alt="Group-147"></a>
+                </div>
+            </div>
+        </div>
+        <div class="auto__parts_1__1">
+            <div class="auto__parts_1__1__picture"><img src="picture/avt-zap_main_page_v01%20(1)йцу%207%20(2).png">
+            </div>
+            <div class="reviews">
+                <div class="reviews__picture"><img src="picture/Group%20224.png" alt="Group224"></div>
+                <a href="#">10 отзывов</a>
+            </div>
+            <h5>Intermediate accumelator sleeve</h5>
+            <div class="auto__parts_1__1__price">
+                <div class="auto__parts_1__1__price-1"><img src="picture/4%20430₽.png" alt="price_picture"></div>
+                <div class="auto__parts_1__1__price-2"><img src="picture/5%20430₽.png" alt="price_picture"></div>
+            </div>
+
+            <div class="auto__parts_1__1__btn">
+                <div class="auto__parts_1__1__btn-1"><a href="#"><img src="picture/Group%20(1).png" alt="basket">В
+                    корзину</a></div>
+                <div class="auto__parts_1__1__btn__like"><a href="#"><img src="picture/Vector%20(1).png" alt="Vector-1"></a>
+                </div>
+                <div class="auto__parts_1__1__btn__statuc"><a href="#"><img src="picture/Group%20147.png"
+                                                                            alt="Group-147"></a>
+                </div>
+            </div>
+        </div>
+        <div class="auto__parts_1__1">
+            <div class="auto__parts_1__1__picture"><img src="picture/avt-zap_main_page_v01%20(1)йцу%2012.png"></div>
+            <div class="reviews">
+                <div class="reviews__picture"><img src="picture/Group%20224.png" alt="Group224"></div>
+                <a href="#">10 отзывов</a>
+            </div>
+            <h5>Intermediate accumelator sleeve</h5>
+            <div class="auto__parts_1__1__price">
+                <p>ЦЕНА</p>
+                <a href="#">по запросу</a>
+            </div>
+
+            <div class="auto__parts_1__1__btn">
+                <div class="auto__parts_1__1__btn-1"><a href="#"><img src="picture/Group%20(1).png" alt="basket">В
+                    корзину</a></div>
+                <div class="auto__parts_1__1__btn__like"><a href="#"><img src="picture/Vector%20(1).png" alt="Vector-1"></a>
+                </div>
+                <div class="auto__parts_1__1__btn__statuc"><a href="#"><img src="picture/Group%20147.png"
+                                                                            alt="Group-147"></a>
+                </div>
+            </div>
+        </div>
+        <div class="auto__parts_1__1">
+            <div class="auto__parts_1__1__picture"><img src="picture/avt-zap_main_page_v01%20(1)йцу%2013%20(1).png">
+            </div>
+            <div class="reviews">
+                <div class="reviews__picture"><img src="picture/Group%20224.png" alt="Group224"></div>
+                <a href="#">10 отзывов</a>
+            </div>
+            <h5>Intermediate accumelator sleeve</h5>
+            <div class="auto__parts_1__1__price">
+                <p>ЦЕНА</p>
+                <a href="#">по запросу</a>
+            </div>
+
+            <div class="auto__parts_1__1__btn">
+                <div class="auto__parts_1__1__btn-1"><a href="#"><img src="picture/Group%20(1).png" alt="basket">В
+                    корзину</a></div>
+                <div class="auto__parts_1__1__btn__like"><a href="#"><img src="picture/Vector%20(1).png" alt="Vector-1"></a>
+                </div>
+                <div class="auto__parts_1__1__btn__statuc"><a href="#"><img src="picture/Group%20147.png"
+                                                                            alt="Group-147"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="footer__btn"><a href="#">Показать еще</a></div>
+    </div>
+    <div class="news">
+        <p>НОВОСТИ</p>
+        <div class="news__line">
+            <div class="news__line__dot_1"></div>
+            <div class="news__line__dot_2"></div>
+            <div class="news__line__dot_3"></div>
+            <div class="news__line__dot_4"></div>
+        </div>
+    </div>
+    <div class="news__line__vertical">
+        <div class="news__line__vertical_1"></div>
+        <div class="news__line__vertical_2"></div>
+        <div class="news__line__vertical_3"></div>
+        <div class="news__line__vertical_4"></div>
+    </div>
+
+    <div class="date">
+        <div class="date__icon_1">
+            <div class="date__icon_1__picture"><img src="picture/Group%2042.png" alt="3 ноября"></div>
+            <div class="date__icon_1__btn"><a href="#">Изменения на сайте</a></div>
+            <p>Недавно на сайте мы ввели
+                очередную порцию изменений,
+                которые, как нам кажется, должны
+                улучшить функциональность сайта
+                и сделать его более удобным для
+                пользователей. Реакция посетителей
+                не заставила себя долго ждать...</p>
+
+        </div>
+        <div class="date__icon_2">
+            <div class="date__icon_2__picture"><img src="picture/Group%2042%20(1).png" alt="2 ноября"></div>
+            <div class="date__icon_2__btn"><a href="#">Вышла новая версия для мобильных приложений</a></div>
+            <p>Что нового в 2.0:</p>
+            <ul>— добавлена история поиска;</ul>
+            <ul> — добавлена синхронизация с сервером;</ul>
+            <ul> — испрвление ошибок.</ul>
+
+        </div>
+        <div class="date__icon_3">
+            <div class="date__icon_3__picture"><img src="picture/Group%2042%20(2).png" alt="1 ноября"></div>
+            <div class="date__icon_3__btn"><a href="#">Очередная порция обновлений для мобильных приложений</a></div>
+            <p>Что нового добавлено:</p>
+            <ul>— поддержка пуш-уведомлений;</ul>
+            <ul>— разделы для покупателей;</ul>
+            <ul>— просмотр покупателя в заказах;</ul>
+            <ul>— возможность поиска;</ul>
+            <ul>— исправление ошибок.</ul>
+        </div>
+        <div class="date__icon_4">
+            <div class="date__icon_4__picture"><img src="picture/Group%2042%20(2).png" alt="31 ноября"></div>
+            <div class="date__icon_4__btn"><a href="#">
+                Интерфейс заказов для покупателей стал более функциональным</a></div>
+            <p>Он позволяет выводить все
+                формируемые системой
+                уведомления(e-mail, смс, web) в
+                едином окне с системой удобной
+                фильтрации поиска.</p>
+        </div>
+
+    </div>
+
+</div>
+
+<div class="information_menu">
+    <div class="information_menu_catalog">
+        <h3>КАТАЛОГ</h3>
+        <p><a href="#">Каталог запчастей</a></p>
+        <p><a href="#">Масла</a></p>
+        <p><a href="#">Масла</a></p>
+        <p><a href="#">Радиаторы</a></p>
+        <p><a href="#">Sonnax</a></p>
+        <p><a href="#">Manual</a></p>
+        <p><a href="#">Новинки</a></p>
+        <p><a href="#">Акции</a></p>
+    </div>
+
+    <div class="information_menu_rubricator">
+        <h3>РУБРИКАТОР</h3>
+        <p><a href="#">Доставка</a></p>
+        <p><a href="#">Оплата</a></p>
+        <p><a href="#">Гарантия</a></p>
+        <p><a href="#">Новости</a></p>
+        <p><a href="#">Журнал</a></p>
+        <p><a href="#">О магазине</a></p>
+        <p><a href="#">Контактная информация</a></p>
+    </div>
+
+    <div class="information_menu_information">
+        <h3>ИНФОРМАЦИЯ</h3>
+        <p><a href="#">Пользовательское соглашение
+            об использовании персональных данных</a></p>
+        <p><a href="#">Политика конфиденциальности</a></p>
+        <p><a href="#">Соглашение на рассылку
+            рекламных материалов</a></p>
+        <p><a href="#">Политика возвратов</a></p>
+        <div class="pay">
+            <p>Мы принимаем</p>
+            <img src="picture/kisspng-mastercard-money-foothills-florist-business-visa-visa-mastercard-5b4d917e5dd4a1%201.png"
+                 alt="mastercard">
+        </div>
+    </div>
+
+    <div class="information_menu_contact">
+        <div class="information_menu_contact_email">
+            <div class="contact">
+                <h3>КОНТАКТЫ</h3>
+                <p>+7 383 291 92 86
+                    info@avt-zap.ru</p>
+            </div>
+            <div class="contact">
+                <h3>АДРЕС</h3>
+                <p>г. Новосибирск,
+                    ул. Планировочная, 5, офис 105</p>
+            </div>
+        </div>
+        <div class="online">
+            <p>Мы онлайн, воспользуйтесь</p>
+            <a href="#">Форма обратной связи</a>
+        </div>
+        <div class="subscription"><p>Подпишитесь на нашу расслыку и вы первыми узнаете о скидках и акциях</p></div>
+        <div class="email">
+            <input placeholder="    Введите ваш email" type="email">
+            <div class="email_btn"><a href="#">Подписаться</a></div>
+        </div>
+        <div class="pictogram">
+            <div class="facebook"><a href="#"><img src="picture/Vector%20(2).png" alt="facebook"></a></div>
+            <div class="telegram"><a href="#"><img src="picture/Vector%20(3).png" alt="telegram"></a></div>
+            <div class="twitter"><a href="#"><img src="picture/Vector%20(4).png" alt="twitter"></a></div>
+            <div class="google"><a href="#"><img src="picture/google-plus%201.png" alt="google"></a></div>
+        </div>
+    </div>
+</div>
+
+<div class="captions"><p>2017 © ООО «АВТ-ЗАП» - запчасти для акпп</p></div>
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+        crossorigin="anonymous"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+        crossorigin="anonymous"></script>
+</body>
+</html>
