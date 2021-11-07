@@ -54,6 +54,21 @@
     margin-left: 10px;
 }
 
+.else{
+    margin-left: 61px;
+    margin-top: 13px;
+    display: none;
+}
+
+.else a{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 14px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+
 .header_top_right {
     margin-top: 16px;
     display: flex;
@@ -187,6 +202,10 @@
     color: #000000;
 }
 
+.whatsapp_media{
+    display: none;
+}
+
 .header_contact {
     width: 180px;
     height: 100px;
@@ -220,8 +239,20 @@
 .registration {
     width: 1250px;
     height: 60px;
-    margin-left: 100px;
+    margin-left: 111px;
     display: flex;
+}
+
+.katalog_media{
+    width: 53px;
+    height: 53px;
+    display: none;
+}
+
+.katalog_media img{
+    width: 53px;
+    height: 53px;
+    margin-left: 14px;
 }
 
 .katalog {
@@ -249,6 +280,10 @@
     margin-top: 14px;
 }
 
+.registration_form_media{
+    display: none;
+}
+
 .registration_form input {
     width: 466px;
     height: 53px;
@@ -263,6 +298,10 @@
     background: #005BB9;
     border-radius: 0px 6px 6px 0px;
     display: flex;
+}
+
+.btn_search_media{
+    display: none;
 }
 
 .btn_search a {
@@ -414,7 +453,7 @@
     text-decoration-line: line-through;
     color: #C2C5DA;
     position: relative;
-    z-index: 4;
+    z-index: 5;
     margin-top: -48px;
     margin-left: 365px;
 }
@@ -426,7 +465,7 @@
     border-radius: 6px;
     display: flex;
     position: relative;
-    z-index: 5;
+    z-index: 6;
     margin-top: 0;
     margin-left: 161px;
 
