@@ -1,28 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="16c2f95d-a459-46a1-9982-2ebe594b5cfa" name="Changes" comment="test">
-      <change afterPath="$PROJECT_DIR$/hw4_/hw4_media.css" afterDir="false" />
+    <list default="true" id="606c92fb-0f86-4597-b334-2eb3cc8d0b5f" name="Changes" comment="hw7+cw7">
+      <change afterPath="$PROJECT_DIR$/JS/hw6/login_page.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/hw6/login_page.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/hw6/picture_login/Rectangle 47 1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/hw6/picture_login/_СOM X ZONE_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/hw6/picture_login/background-img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/hw6/picture_login/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/hw8/js_hw8.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/hw8/js_hw8.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS/hw3/js_additional_3.html" beforeDir="false" afterPath="$PROJECT_DIR$/JS/hw3/js_additional_3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS/hw3/js_hw3.html" beforeDir="false" afterPath="$PROJECT_DIR$/JS/hw3/js_hw3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS/hw7/js_cw7.html" beforeDir="false" afterPath="$PROJECT_DIR$/JS/hw7/js_cw7.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/test1.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/test1.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/hw4_/hw4.css" beforeDir="false" afterPath="$PROJECT_DIR$/hw4_/hw4.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw4_/hw4.html" beforeDir="false" afterPath="$PROJECT_DIR$/hw4_/hw4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw5_restaurant/hw5_restaurant.html" beforeDir="false" afterPath="$PROJECT_DIR$/hw5_restaurant/hw5_restaurant.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw7_AVT-ZAP/media_hw7_AVT-ZAP.css" beforeDir="false" afterPath="$PROJECT_DIR$/hw7_AVT-ZAP/media_hw7_AVT-ZAP.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/maks_lox/couple-web/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/maks_lox/couple-web/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/maks_lox/couple-web/src/pages/LoginPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/maks_lox/couple-web/src/pages/LoginPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/maks_lox/couple-web/src/pages/loginpage.css" beforeDir="false" afterPath="$PROJECT_DIR$/maks_lox/couple-web/src/pages/loginpage.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testx/index_test.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ChangesViewManager">
-    <option name="groupingKeys">
-      <option value="directory" />
-      <option value="repository" />
-    </option>
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTML4 File" />
         <option value="CSS File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -37,10 +50,7 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
-  <component name="GithubDefaultAccount">
-    <option name="defaultAccountId" value="5d3bc9f3-9f28-48b1-9602-1615639a4602" />
-  </component>
-  <component name="ProjectId" id="1ztvW37JJRonhXIm9tCooEzgoMj" />
+  <component name="ProjectId" id="20MfE4ngLrPPG5ro7FjQ0sNQThi" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
@@ -49,7 +59,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="ChangesTree.GroupingKeys" value="repository&#10;directory" />
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
@@ -57,48 +67,291 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="16c2f95d-a459-46a1-9982-2ebe594b5cfa" name="Changes" comment="" />
-      <created>1634980233254</created>
+      <changelist id="606c92fb-0f86-4597-b334-2eb3cc8d0b5f" name="Changes" comment="" />
+      <created>1635859269541</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1634980233254</updated>
-      <workItem from="1634980236123" duration="4169000" />
-      <workItem from="1635000489767" duration="485000" />
-      <workItem from="1635064114539" duration="3893000" />
-      <workItem from="1635086841585" duration="21000" />
-      <workItem from="1635086871967" duration="766000" />
-      <workItem from="1635087648669" duration="151000" />
-      <workItem from="1635090718281" duration="10676000" />
-      <workItem from="1635177798893" duration="13911000" />
-      <workItem from="1635245714196" duration="3512000" />
-      <workItem from="1635267945429" duration="388000" />
-      <workItem from="1635268338961" duration="274000" />
-      <workItem from="1635268617370" duration="2925000" />
-      <workItem from="1635419742266" duration="5974000" />
-      <workItem from="1635426086816" duration="97000" />
-      <workItem from="1635426218880" duration="14443000" />
+      <updated>1635859269541</updated>
+      <workItem from="1635859274032" duration="1226000" />
+      <workItem from="1635861150847" duration="16596000" />
+      <workItem from="1635928783794" duration="13348000" />
+      <workItem from="1635942970632" duration="10606000" />
+      <workItem from="1635958855267" duration="14179000" />
+      <workItem from="1635973592766" duration="655000" />
+      <workItem from="1636025957454" duration="13856000" />
+      <workItem from="1636050691877" duration="4608000" />
+      <workItem from="1636109181516" duration="7900000" />
+      <workItem from="1636117303932" duration="30242000" />
+      <workItem from="1636189712117" duration="18783000" />
+      <workItem from="1636233144126" duration="11079000" />
+      <workItem from="1636244669750" duration="2503000" />
+      <workItem from="1636285420489" duration="1572000" />
+      <workItem from="1636626151672" duration="4195000" />
+      <workItem from="1636645428095" duration="6346000" />
+      <workItem from="1636669281605" duration="498000" />
+      <workItem from="1636739361076" duration="658000" />
+      <workItem from="1636975730781" duration="3492000" />
+      <workItem from="1636980326910" duration="1627000" />
+      <workItem from="1637072697537" duration="7441000" />
+      <workItem from="1637137822023" duration="10737000" />
+      <workItem from="1637237820702" duration="8430000" />
+      <workItem from="1637251023665" duration="4403000" />
+      <workItem from="1637316270866" duration="12670000" />
+      <workItem from="1637585679226" duration="2036000" />
+      <workItem from="1637587845759" duration="10739000" />
+      <workItem from="1637664212996" duration="8900000" />
+      <workItem from="1637683018507" duration="5395000" />
+      <workItem from="1637760425657" duration="7838000" />
+      <workItem from="1637841136534" duration="10042000" />
+      <workItem from="1638182838451" duration="6180000" />
+      <workItem from="1638270507318" duration="6927000" />
+      <workItem from="1638349684519" duration="7121000" />
+      <workItem from="1638442342146" duration="5041000" />
+      <workItem from="1638529625606" duration="9062000" />
+      <workItem from="1638557504753" duration="598000" />
+      <workItem from="1638612718095" duration="3278000" />
+      <workItem from="1638623284111" duration="1510000" />
+      <workItem from="1638656825681" duration="7941000" />
+      <workItem from="1638700385461" duration="6355000" />
+      <workItem from="1638743589944" duration="93000" />
     </task>
-    <task id="LOCAL-00001" summary="Домашня робота по флексах.">
-      <created>1635087575987</created>
+    <task id="LOCAL-00001" summary="Виконав 5 дз">
+      <created>1635874712414</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1635087575987</updated>
+      <updated>1635874712414</updated>
     </task>
-    <task id="LOCAL-00002" summary="test">
-      <created>1635268587465</created>
+    <task id="LOCAL-00002" summary="Виконав 5 дз">
+      <created>1635875349940</created>
       <option name="number" value="00002" />
       <option name="presentableId" value="LOCAL-00002" />
       <option name="project" value="LOCAL" />
-      <updated>1635268587465</updated>
+      <updated>1635875349940</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Виконав 5 дз">
+      <created>1635876006834</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1635876006834</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Виконав 6 дз з bootstrap ,але без адаптації поки">
+      <created>1635972636278</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1635972636279</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Виконав 6 дз з bootstrap ,але без адаптації поки">
+      <created>1635973647735</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1635973647735</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Виконав 6 дз з bootstrap та адаптацією під телефон">
+      <created>1636039287879</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1636039287879</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Виконав 6 дз з bootstrap та адаптацією під телефон">
+      <created>1636039314688</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1636039314688</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Виконав 7 дз ,наразі тіки десктопну версію">
+      <created>1636209760532</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1636209760532</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Виконав 7 дз разом з десктопом і медіа">
+      <created>1636243946931</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1636243946931</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Виконав дз">
+      <created>1636739466629</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1636739466629</updated>
+    </task>
+    <task id="LOCAL-00011" summary="класворк">
+      <created>1636979436994</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1636979436994</updated>
+    </task>
+    <task id="LOCAL-00012" summary="помилки виправив">
+      <created>1636980412126</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1636980412126</updated>
+    </task>
+    <task id="LOCAL-00013" summary="виконав">
+      <created>1636981224585</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1636981224585</updated>
+    </task>
+    <task id="LOCAL-00014" summary="виконав">
+      <created>1636981363299</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1636981363299</updated>
+    </task>
+    <task id="LOCAL-00015" summary="дз2">
+      <created>1637083055451</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1637083055451</updated>
+    </task>
+    <task id="LOCAL-00016" summary="cw2">
+      <created>1637142945462</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1637142945462</updated>
+    </task>
+    <task id="LOCAL-00017" summary="дз2">
+      <created>1637143521315</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1637143521315</updated>
+    </task>
+    <task id="LOCAL-00018" summary="дз2">
+      <created>1637145321433</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1637145321433</updated>
+    </task>
+    <task id="LOCAL-00019" summary="виконав додаткове завдання">
+      <created>1637151188634</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1637151188634</updated>
+    </task>
+    <task id="LOCAL-00020" summary="виконав додаткове завдання">
+      <created>1637238001739</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1637238001739</updated>
+    </task>
+    <task id="LOCAL-00021" summary="виконав hw3">
+      <created>1637247271381</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1637247271381</updated>
+    </task>
+    <task id="LOCAL-00022" summary="cw3">
+      <created>1637603805871</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1637603805871</updated>
+    </task>
+    <task id="LOCAL-00023" summary="cw3">
+      <created>1637608088534</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1637608088534</updated>
+    </task>
+    <task id="LOCAL-00024" summary="add_3">
+      <created>1637675585787</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1637675585787</updated>
+    </task>
+    <task id="LOCAL-00025" summary="hw4">
+      <created>1637762447882</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1637762447882</updated>
+    </task>
+    <task id="LOCAL-00026" summary="hw4">
+      <created>1637764140826</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1637764140826</updated>
+    </task>
+    <task id="LOCAL-00027" summary="cw4">
+      <created>1637790633852</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1637790633852</updated>
+    </task>
+    <task id="LOCAL-00028" summary="add4">
+      <created>1637842745249</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1637842745249</updated>
+    </task>
+    <task id="LOCAL-00029" summary="hw5+cw5">
+      <created>1638205558790</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1638205558790</updated>
+    </task>
+    <task id="LOCAL-00030" summary="add5">
+      <created>1638206198746</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1638206198746</updated>
+    </task>
+    <task id="LOCAL-00031" summary="hw6">
+      <created>1638280570442</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1638280570442</updated>
+    </task>
+    <task id="LOCAL-00032" summary="cw6">
+      <created>1638293767255</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1638293767255</updated>
+    </task>
+    <task id="LOCAL-00033" summary="hw7+cw7">
+      <created>1638540728195</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1638540728196</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -117,12 +370,30 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Домашня робота по флексах." />
-    <MESSAGE value="test" />
-    <option name="LAST_COMMIT_MESSAGE" value="test" />
-  </component>
-  <component name="XSLT-Support.FileAssociations.UIState">
-    <expand />
-    <select />
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Виконав 5 дз" />
+    <MESSAGE value="Виконав 6 дз з bootstrap ,але без адаптації поки" />
+    <MESSAGE value="Виконав 6 дз з bootstrap та адаптацією під телефон" />
+    <MESSAGE value="Виконав 7 дз ,наразі тіки десктопну версію" />
+    <MESSAGE value="Виконав 7 дз разом з десктопом і медіа" />
+    <MESSAGE value="Виконав дз" />
+    <MESSAGE value="класворк" />
+    <MESSAGE value="помилки виправив" />
+    <MESSAGE value="виконав" />
+    <MESSAGE value="cw2" />
+    <MESSAGE value="дз2" />
+    <MESSAGE value="виконав додаткове завдання" />
+    <MESSAGE value="виконав hw3" />
+    <MESSAGE value="cw3" />
+    <MESSAGE value="add_3" />
+    <MESSAGE value="hw4" />
+    <MESSAGE value="cw4" />
+    <MESSAGE value="add4" />
+    <MESSAGE value="hw5+cw5" />
+    <MESSAGE value="add5" />
+    <MESSAGE value="hw6" />
+    <MESSAGE value="cw6" />
+    <MESSAGE value="hw7+cw7" />
+    <option name="LAST_COMMIT_MESSAGE" value="hw7+cw7" />
   </component>
 </project>
