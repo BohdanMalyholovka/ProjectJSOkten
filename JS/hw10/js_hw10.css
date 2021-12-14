@@ -1,0 +1,35 @@
+.hidebtn{
+    transition: 3s;
+    display: block;
+    height: 0;
+    overflow: hidden;
+}
+
+.button{
+    height: 100px;
+}
+
+.menu {
+    transition: 1s;
+    background: #01cfd2;
+    min-height: 20px;
+}
+.collapse{
+    transition: 1s;
+    height: 0;
+    overflow: hidden;
+}
+
+.li{
+    height: 10px;
+}
+
+.hide-body{
+    height: 0;
+    overflow: hidden;
+}
+
+.body-comment{
+    transition: 1s;
+    height: 40px;
+}
